@@ -11,6 +11,7 @@ import { VyukovymodDetailComponent } from './pages/vyukovymod/vyukovymod-detail/
 import { NavodyDetailComponent } from './pages/navody/navody-detail/navody-detail.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { SafePipe } from './safe.pipe';
+import { NavodyKrokyComponent } from './pages/navody/navody-detail/navody-kroky/navody-kroky.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SafePipe } from './safe.pipe';
     VyukovymodDetailComponent,
     NavodyDetailComponent,
     SafePipe,
+    NavodyKrokyComponent,
   ],
   imports: [
     BrowserModule,
